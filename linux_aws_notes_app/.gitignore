@@ -1,0 +1,7 @@
+/mariadb/
+/mariadb-backup/
+
+*.sql
+*.pem
+*.log
+.my.cnf
