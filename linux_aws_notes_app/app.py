@@ -12,7 +12,7 @@ conn = mysql.connector.connect(
     database="notesdb"
 )
 cursor = conn.cursor()
-# -----------------------
+# ------------------------
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
