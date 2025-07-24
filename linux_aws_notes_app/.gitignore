@@ -2,6 +2,6 @@
 /mariadb-backup/
 
 *.sql
-*.pem
 *.log
+*.pem
 .my.cnf
